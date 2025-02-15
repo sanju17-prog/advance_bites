@@ -77,13 +77,13 @@ python manage.py runserver
 
 ## Usage
 
-# Generating Fake Data
+### Generating Fake Data
 
-# Use the seed.py script to generate fake data for testing
+#### Use the seed.py script to generate fake data for testing
 ```python manage.py runscript seed```
 
-# API Endpoints
+#### API Endpoints
 - Access the API endpoints defined in urls.py to interact with the application
 
-# Example:
+#### Example:
 - ```curl http://127.0.0.1:8000/api/your-endpoint/```
