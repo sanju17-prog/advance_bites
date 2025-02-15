@@ -79,8 +79,8 @@ python manage.py runserver
 
 ### Generating Fake Data
 
-#### Use the seed.py script to generate fake data for testing
-```python manage.py runscript seed```
+- Use the seed.py script to generate fake data for testing
+- ```python manage.py runscript seed```
 
 #### API Endpoints
 - Access the API endpoints defined in urls.py to interact with the application
