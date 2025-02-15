@@ -59,22 +59,27 @@ advance_bites/
 ## Installation
 
 # Clone the repository
-git clone <repository_url>
+```bash
+git clone https://github.com/sanju17-prog/advance_bites
 cd advance_bites
-
+```
 # Create a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+```
 # Install the dependencies
+```bash
 pip install -r requirements.txt
-
+```
 # Apply migrations
+```bash
 python manage.py migrate
-
+```
 # Run the development server
+```bash
 python manage.py runserver
-
+```
 ## Usage
 
 ### Generating Fake Data
